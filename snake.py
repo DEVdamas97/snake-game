@@ -28,10 +28,10 @@ fonte = pygame.font.SysFont(None, 30)
 # OBS: Certifique-se de que a pasta "SFX/" está no mesmo diretório do arquivo .py
 # Caso contrário, você precisará ajustar os caminhos dos arquivos de áudio abaixo.
 sons = [
-    pygame.mixer.Sound(r"C:\Users\Usuario\Documents\Python\Python\SFX\bite-1.mp3"),
-    pygame.mixer.Sound(r"C:\Users\Usuario\Documents\Python\Python\SFX\bite-2.mp3"),
-    pygame.mixer.Sound(r"C:\Users\Usuario\Documents\Python\Python\SFX\bite-3.mp3"),
-    pygame.mixer.Sound(r"C:\Users\Usuario\Documents\Python\Python\SFX\bite-4.mp3"),
+    pygame.mixer.Sound(r"SFX\bite-1.mp3"),
+    pygame.mixer.Sound(r"SFX\bite-2.mp3"),
+    pygame.mixer.Sound(r"SFX\bite-3.mp3"),
+    pygame.mixer.Sound(r"SFX\bite-4.mp3"),
 ]
 
 # Função para mostrar pontos
@@ -180,4 +180,5 @@ def jogo():
 
 if __name__ == "__main__":
     jogo()
+
 
